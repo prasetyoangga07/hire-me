@@ -86,7 +86,10 @@
                             Project
                         </a>
 
-                        <a href="#" class="btn btn--ghost">
+                        <a href="{{ asset('cv/CV-Prasetyo-Angga-Permana.pdf') }}"
+                            class="btn btn--ghost"
+                            target="_blank"
+                            rel="noopener">
                             <i class="bi bi-download"></i>
                             Download CV
                         </a>
@@ -596,12 +599,12 @@
 
             <div class="contact-action reveal" data-reveal>
 
-                <a href="#" class="btn btn--primary">
-
+                <a href="{{ asset('cv/CV-Prasetyo-Angga-Permana.pdf') }}"
+                    class="btn btn--ghost"
+                    target="_blank"
+                    rel="noopener">
                     <i class="bi bi-download"></i>
-
                     Download CV
-
                 </a>
 
                 <button
